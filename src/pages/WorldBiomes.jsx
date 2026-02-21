@@ -11,7 +11,7 @@ export default function WorldBiomes() {
     return (
         <div className="geo-page">
             <GeoBackNav current="World Biomes" color={biome.color} />
-            <section className="geo-sub-hero" style={{ background: `linear-gradient(135deg, #0a0a1a 60%, ${biome.color}22)` }}>
+            <section className="geo-sub-hero" style={{ background: `linear-gradient(135deg, #ffffff 60%, ${biome.color}22)` }}>
                 <motion.div className="geo-sub-hero-content"
                     key={activeBiome} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
                     <p className="geo-hero-eyebrow">World Geography › Biomes & Ecosystems</p>

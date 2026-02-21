@@ -11,7 +11,7 @@ export default function IndianClimate() {
     return (
         <div className="geo-page">
             <GeoBackNav current="Climate & Monsoon" color={season.color} />
-            <section className="geo-sub-hero" style={{ background: `linear-gradient(135deg, #0a0a1a 60%, ${season.color}22)` }}>
+            <section className="geo-sub-hero" style={{ background: `linear-gradient(135deg, #ffffff 60%, ${season.color}22)` }}>
                 <motion.div className="geo-sub-hero-content"
                     key={activeSeason} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
                     <p className="geo-hero-eyebrow">Indian Geography › Climate & Monsoon</p>

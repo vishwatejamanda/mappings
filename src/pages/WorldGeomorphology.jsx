@@ -12,7 +12,7 @@ export default function WorldGeomorphology() {
     return (
         <div className="geo-page">
             <GeoBackNav current="Geomorphology" color="#EF4444" />
-            <section className="geo-sub-hero" style={{ background: 'linear-gradient(135deg, #0a0a1a 60%, #EF444422)' }}>
+            <section className="geo-sub-hero" style={{ background: 'linear-gradient(135deg, #ffffff 60%, #EF444422)' }}>
                 <motion.div className="geo-sub-hero-content" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
                     <p className="geo-hero-eyebrow">World Geography › Geomorphology</p>
                     <h1 className="geo-sub-hero-title">🌋 Geomorphology</h1>

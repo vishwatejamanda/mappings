@@ -11,7 +11,7 @@ export default function IndianSoils() {
     return (
         <div className="geo-page">
             <GeoBackNav current="Soil Types" color="#65A30D" />
-            <section className="geo-sub-hero" style={{ background: `linear-gradient(135deg, #0a0a1a 60%, ${soil.color}22)` }}>
+            <section className="geo-sub-hero" style={{ background: `linear-gradient(135deg, #ffffff 60%, ${soil.color}22)` }}>
                 <motion.div className="geo-sub-hero-content"
                     key={activeSoil} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
                     <p className="geo-hero-eyebrow">Indian Geography › Soil Types</p>

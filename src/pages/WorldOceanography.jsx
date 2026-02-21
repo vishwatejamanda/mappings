@@ -13,7 +13,7 @@ export default function WorldOceanography() {
     return (
         <div className="geo-page">
             <GeoBackNav current="Oceanography" color="#0EA5E9" />
-            <section className="geo-sub-hero" style={{ background: 'linear-gradient(135deg, #0a0a1a 60%, #0EA5E922)' }}>
+            <section className="geo-sub-hero" style={{ background: 'linear-gradient(135deg, #ffffff 60%, #0EA5E922)' }}>
                 <motion.div className="geo-sub-hero-content" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
                     <p className="geo-hero-eyebrow">World Geography › Oceanography</p>
                     <h1 className="geo-sub-hero-title">🌊 Oceanography</h1>

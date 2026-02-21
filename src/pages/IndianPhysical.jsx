@@ -21,7 +21,7 @@ export default function IndianPhysical() {
         <div className="geo-page">
             <GeoBackNav current="Physical Features" color={division.color} />
             {/* Hero */}
-            <section className="geo-sub-hero" style={{ background: `linear-gradient(135deg, #0a0a1a 60%, ${division.color}22)` }}>
+            <section className="geo-sub-hero" style={{ background: `linear-gradient(135deg, #ffffff 60%, ${division.color}22)` }}>
                 <motion.div className="geo-sub-hero-content"
                     key={activeDiv} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
                     <p className="geo-hero-eyebrow">Indian Geography › Physical Features</p>

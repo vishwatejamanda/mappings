@@ -726,7 +726,7 @@
 }
 
 .geo-river-card.selected {
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(0, 0, 0, 0.04);
 }
 
 .geo-river-card-header {
@@ -1289,7 +1289,7 @@
 
 .geo-soil-bar-track {
   height: 8px;
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(0, 0, 0, 0.06);
   border-radius: 4px;
   overflow: hidden;
 }
@@ -2443,7 +2443,7 @@
   position: sticky;
   top: 50px;
   z-index: 50;
-  background: rgba(10, 10, 26, 0.92);
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border-subtle);
 }
@@ -2461,7 +2461,7 @@
 }
 
 .geo-back-btn:hover {
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(0, 0, 0, 0.06);
 }
 
 .geo-back-sep {

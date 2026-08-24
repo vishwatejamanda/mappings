@@ -7,6 +7,7 @@ export const HISTORY_DIVISIONS = [
         color: '#F59E0B',
         gradient: 'linear-gradient(135deg, #F59E0B, #D97706)',
         icon: '🏛️',
+        image: '/images/ancient_era.jpg',
         bgImage: 'radial-gradient(circle at 30% 40%, rgba(245,158,11,0.12) 0%, transparent 60%)',
         overview: 'Ancient India witnessed the birth of one of the world\'s oldest civilizations in the Indus Valley, the composition of the Vedas, the rise of Buddhism and Jainism, the first pan-Indian Maurya Empire, and the golden age of the Gupta dynasty. This era laid the foundations of Indian philosophy, mathematics, astronomy, art, and governance that continue to influence the world.',
         keyThemes: ['Indus Valley Civilization', 'Vedic Culture & Philosophy', 'Rise of Buddhism & Jainism', 'Maurya Empire & Ashoka', 'Gupta Golden Age', 'Classical Sanskrit Literature'],
@@ -19,6 +20,7 @@ export const HISTORY_DIVISIONS = [
         color: '#8B5CF6',
         gradient: 'linear-gradient(135deg, #8B5CF6, #7C3AED)',
         icon: '⚔️',
+        image: '/images/medieval_era.jpg',
         bgImage: 'radial-gradient(circle at 70% 30%, rgba(139,92,246,0.12) 0%, transparent 60%)',
         overview: 'Medieval India was an era of powerful regional kingdoms, the arrival of Islam, and an extraordinary cultural synthesis. The Rajputs defended their honor, the Cholas dominated the seas, the Delhi Sultanate transformed north India, and the Vijayanagara Empire preserved Hindu traditions in the south. Architecture, literature, and art flourished in a uniquely syncretic environment.',
         keyThemes: ['Rajput Kingdoms', 'Chola Naval Power', 'Islamic Arrival & Delhi Sultanate', 'Bhakti & Sufi Movements', 'Vijayanagara Empire', 'Indo-Islamic Architecture'],
@@ -31,6 +33,7 @@ export const HISTORY_DIVISIONS = [
         color: '#10B981',
         gradient: 'linear-gradient(135deg, #10B981, #059669)',
         icon: '🇮🇳',
+        image: '/images/modern_era.jpg',
         bgImage: 'radial-gradient(circle at 50% 60%, rgba(16,185,129,0.12) 0%, transparent 60%)',
         overview: 'Modern India encompasses the grandeur of the Mughal Empire, the trauma and transformation of British colonialism, the heroic freedom struggle led by Mahatma Gandhi and countless others, and the emergence of independent India as the world\'s largest democracy. This era shaped the India we know today — diverse, democratic, and dynamic.',
         keyThemes: ['Mughal Empire', 'European Colonialism', 'Freedom Struggle', 'Partition & Independence', 'Constitution & Democracy', 'Economic Liberalization'],
@@ -172,6 +175,39 @@ export const HISTORY_EVENTS = {
             image: '✨'
         },
         {
+            year: 200, yearLabel: '200 BCE',
+            title: 'Sangam Age — Tamil Literary Golden Age',
+            description: 'The Sangam period in South India produced extraordinary Tamil literature — 2,381 poems by 473 poets organized in anthologies. Three Sangams (literary academies) flourished at Madurai. The Sangam works like Tolkappiyam, Tirukkural, and Silappadikaram are masterpieces that describe a vibrant society of merchants, warriors, and poets.',
+            significance: 'Oldest surviving secular literature in any Indian language; records ancient Tamil civilization',
+            location: 'Madurai / Tamil Nadu', coords: [9.92, 78.12],
+            category: 'culture',
+            contemporary: 'Rome — late Republic era; China — Han Dynasty established; Parthian Empire in Persia',
+            keyFigures: ['Thiruvalluvar', 'Ilango Adigal', 'Avvaiyar'],
+            image: '📚'
+        },
+        {
+            year: 30, yearLabel: '30 CE',
+            title: 'Satavahana Empire — Deccan Power',
+            description: 'The Satavahanas (Andhras) built the first great Deccan empire, controlling vast territories from Maharashtra to Andhra Pradesh. They issued the first Indian coins with royal portraits, patronized Buddhism (Amaravati Stupa), and facilitated maritime trade with Rome. Their Prakrit literature and administration bridged north and south India.',
+            significance: 'First major Deccan empire; linked North-South India culturally and politically',
+            location: 'Pratishthana (Paithan)', coords: [19.48, 75.38],
+            category: 'political',
+            contemporary: 'Roman Empire under Augustus & Tiberius; Jesus Christ in Judea; Kushan Empire forming in Central Asia',
+            keyFigures: ['Gautamiputra Satakarni', 'Simuka'],
+            image: '🏛️'
+        },
+        {
+            year: 450, yearLabel: '450 CE',
+            title: 'Nalanda University — World\'s First University',
+            description: 'Nalanda University in Bihar became the world\'s greatest center of learning, attracting 10,000+ students from across Asia. Subjects included Buddhism, logic, grammar, medicine, astronomy, and metaphysics. The campus had 8 compounds, 10 temples, meditation halls, and a 9-story library (Dharmaganja). It operated for nearly 800 years.',
+            significance: 'World\'s first residential university; attracted scholars from China, Korea, Tibet, Central Asia',
+            location: 'Nalanda, Bihar', coords: [25.13, 85.44],
+            category: 'culture',
+            contemporary: 'Fall of Roman Empire in the West (476 CE); Europe entering Dark Ages; China — Northern Wei Dynasty',
+            keyFigures: ['Nagarjuna', 'Aryabhata', 'Dharmakirti'],
+            image: '🎓'
+        },
+        {
             year: 606, yearLabel: '606 CE',
             title: 'Harshavardhana — Last Great North Indian Emperor',
             description: 'Harsha of Kannauj united most of North India. He was a patron of Nalanda University and the Chinese pilgrim Xuanzang visited his court, leaving detailed accounts. Harsha himself authored three Sanskrit plays. His death in 647 CE marked the end of ancient Indian political unity.',
@@ -285,6 +321,28 @@ export const HISTORY_EVENTS = {
             image: '🔥'
         },
         {
+            year: 1325, yearLabel: '1325 CE',
+            title: 'Muhammad bin Tughlaq — The Mad Genius',
+            description: 'Muhammad bin Tughlaq became Sultan of Delhi — one of the most controversial rulers. He shifted the capital from Delhi to Daulatabad (1,500 km), introduced token copper currency that failed catastrophically, and lost territories due to his experimental policies. Yet he was highly educated, spoke multiple languages, and debated with scholars.',
+            significance: 'His failed experiments weakened the Sultanate and led to regional breakaways',
+            location: 'Delhi / Daulatabad', coords: [19.93, 75.21],
+            category: 'political',
+            contemporary: 'Europe — Hundred Years\' War begins (1337); Black Death starts spreading; Ibn Battuta travels the world',
+            keyFigures: ['Muhammad bin Tughlaq', 'Ibn Battuta'],
+            image: '🪙'
+        },
+        {
+            year: 1347, yearLabel: '1347 CE',
+            title: 'Bahmani Sultanate Founded',
+            description: 'Alauddin Bahman Shah founded the Bahmani Sultanate in the Deccan after breaking away from Delhi. For 180 years, it was the main rival of the Vijayanagara Empire. The Bahmani rulers patronized Persian culture, built magnificent monuments, and later split into five Deccan Sultanates (Bijapur, Golconda, Ahmednagar, Bidar, Berar).',
+            significance: 'Created the Deccan\'s Islamic cultural tradition; forerunner of five successor sultanates',
+            location: 'Gulbarga / Bidar', coords: [17.33, 76.83],
+            category: 'political',
+            contemporary: 'Europe — Black Death at its worst; China — decline of Yuan Dynasty; Ottoman Empire expanding',
+            keyFigures: ['Alauddin Bahman Shah', 'Mahmud Gawan'],
+            image: '🏰'
+        },
+        {
             year: 1469, yearLabel: '1469 CE',
             title: 'Guru Nanak — Birth of Sikhism',
             description: 'Guru Nanak Dev Ji was born in Talwandi (now Nankana Sahib, Pakistan). He rejected caste divisions and ritualism, preaching the oneness of God, equality, and honest living. His teachings formed the foundation of Sikhism, which grew into a major world religion with profound impact on Punjab.',
@@ -308,6 +366,17 @@ export const HISTORY_EVENTS = {
             contemporary: 'Europe — Protestant Reformation; Ottoman Empire conquers Hungary; Magellan circumnavigates globe',
             keyFigures: ['Babur', 'Ibrahim Lodi'],
             image: '👑'
+        },
+        {
+            year: 1540, yearLabel: '1540 CE',
+            title: 'Sher Shah Suri — Afghan Interlude',
+            description: 'Sher Shah Suri defeated Humayun and briefly interrupted Mughal rule (1540-1555). In just 5 years of rule, he introduced revolutionary reforms: the Grand Trunk Road (GT Road from Chittagong to Kabul), standardized the Rupiya (silver coin), reorganized the revenue system (which Akbar later adopted), and established a postal system (Dak Chowki).',
+            significance: 'His administrative reforms outlasted his dynasty and were adopted by Akbar',
+            location: 'Delhi / Sasaram', coords: [25.17, 84.03],
+            category: 'political',
+            contemporary: 'Europe — Henry VIII; Counter-Reformation; Copernicus publishes heliocentric theory',
+            keyFigures: ['Sher Shah Suri'],
+            image: '🛤️'
         },
         {
             year: 1556, yearLabel: '1556 CE',
@@ -429,6 +498,83 @@ export const HISTORY_EVENTS = {
             contemporary: 'Korean War begins; China — People\'s Republic established; Europe — rebuilding from WWII',
             keyFigures: ['Dr. B.R. Ambedkar', 'Rajendra Prasad', 'Jawaharlal Nehru'],
             image: '📜'
+        },
+        {
+            year: 1920, yearLabel: '1920 CE',
+            title: 'Non-Cooperation Movement',
+            description: 'Mahatma Gandhi launched the Non-Cooperation Movement — the first mass movement against British rule. Indians boycotted British goods, courts, schools, and titles. Thousands gave up government jobs. The movement was called off after the Chauri Chaura incident (1922) where a mob burned 22 policemen alive.',
+            significance: 'Transformed independence movement from elite petition to mass participation',
+            location: 'Pan-India', coords: [23.0, 79.0],
+            category: 'political',
+            contemporary: 'Post-WWI world; Russian Revolution aftermath; League of Nations; Prohibition in USA',
+            keyFigures: ['Mahatma Gandhi', 'Motilal Nehru', 'C.R. Das', 'Ali Brothers'],
+            image: '✊'
+        },
+        {
+            year: 1962, yearLabel: '1962 CE',
+            title: 'Sino-Indian War',
+            description: 'China launched a surprise attack across the McMahon Line in NEFA (Arunachal Pradesh) and Aksai Chin (Ladakh). The ill-prepared Indian army suffered a humiliating defeat. The war shattered India\'s "Hindi-Chini Bhai Bhai" policy and led to a massive military modernization drive.',
+            significance: 'Reshaped India\'s defense policy; border dispute remains unresolved',
+            location: 'NEFA / Aksai Chin', coords: [34.0, 78.0],
+            category: 'military',
+            contemporary: 'Cuban Missile Crisis; Cold War at peak; Space Race; Algerian independence',
+            keyFigures: ['Jawaharlal Nehru', 'V.K. Krishna Menon'],
+            image: '⚔️'
+        },
+        {
+            year: 1971, yearLabel: '1971 CE',
+            title: 'Bangladesh Liberation War — India\'s Greatest Military Victory',
+            description: 'India intervened in East Pakistan\'s liberation struggle, defeating the Pakistani military in just 13 days — one of the fastest decisive victories in modern military history. 93,000 Pakistani soldiers surrendered — the largest military surrender since World War II. Bangladesh was born as an independent nation.',
+            significance: 'Changed South Asia\'s map; established India as the regional superpower',
+            location: 'East Pakistan / Dhaka', coords: [23.81, 90.41],
+            category: 'military',
+            contemporary: 'Cold War; Nixon-Kissinger "tilt" towards Pakistan; China supports Pakistan',
+            keyFigures: ['Indira Gandhi', 'Sam Manekshaw', 'Sheikh Mujibur Rahman'],
+            image: '🏆'
+        },
+        {
+            year: 1975, yearLabel: '1975 CE',
+            title: 'The Emergency — Democracy\'s Darkest Hour',
+            description: 'PM Indira Gandhi declared a state of Emergency (June 1975 – March 1977), suspending fundamental rights, censoring the press, jailing opposition leaders, and forcibly implementing population control. The 42nd Amendment was called the "Mini Constitution" for its sweeping changes. The Emergency ended when elections were called and Indira Gandhi lost.',
+            significance: 'Greatest test of Indian democracy; showed the resilience of democratic institutions',
+            location: 'New Delhi', coords: [28.61, 77.21],
+            category: 'political',
+            contemporary: 'Vietnam War ends; Cold War continues; Rise of Mao in China; Watergate in USA',
+            keyFigures: ['Indira Gandhi', 'Jayaprakash Narayan', 'Morarji Desai'],
+            image: '⚠️'
+        },
+        {
+            year: 1991, yearLabel: '1991 CE',
+            title: 'Economic Liberalization — LPG Reforms',
+            description: 'Facing a balance of payments crisis (forex reserves down to 2 weeks of imports), PM Narasimha Rao and FM Manmohan Singh dismantled the License Raj. Liberalization, Privatization, and Globalization (LPG) transformed India. Industrial licensing was abolished, FDI was welcomed, the rupee was devalued, and India opened to the world economy.',
+            significance: 'India\'s GDP growth accelerated from 3.5% to 7-9%; created the IT boom and new middle class',
+            location: 'New Delhi', coords: [28.61, 77.21],
+            category: 'political',
+            contemporary: 'Soviet Union collapses; End of Cold War; Gulf War; World Wide Web invented',
+            keyFigures: ['P.V. Narasimha Rao', 'Manmohan Singh'],
+            image: '🚀'
+        },
+        {
+            year: 1998, yearLabel: '1998 CE',
+            title: 'Pokhran-II — India Goes Nuclear',
+            description: 'India conducted 5 nuclear tests at Pokhran, Rajasthan (Operation Shakti), declaring itself a nuclear weapons state. The tests included thermonuclear and fission devices. Despite international sanctions, India maintained its policy of "No First Use" and credible minimum deterrence.',
+            significance: 'Made India a nuclear power; transformed India\'s strategic posture',
+            location: 'Pokhran, Rajasthan', coords: [26.97, 71.09],
+            category: 'military',
+            contemporary: 'Clinton era in USA; Asian financial crisis; Euro currency launched; Google founded',
+            keyFigures: ['Atal Bihari Vajpayee', 'A.P.J. Abdul Kalam', 'R. Chidambaram'],
+            image: '☢️'
+        },
+        {
+            year: 2014, yearLabel: '2014 CE',
+            title: 'Digital India & New Era',
+            description: 'India entered a transformative digital era — Aadhaar (world\'s largest biometric ID: 1.3 billion), UPI (Unified Payments Interface revolutionizing digital payments with 10 billion+ monthly transactions), Direct Benefit Transfer, Jan Dhan Yojana (500 million bank accounts), and GST (One Nation, One Tax). India became the world leader in real-time digital payments.',
+            significance: 'Leapfrogged to become global leader in digital infrastructure and fintech',
+            location: 'Pan-India', coords: [23.0, 79.0],
+            category: 'civilization',
+            contemporary: 'Global smartphone revolution; AI and machine learning era; Climate change agreements',
+            keyFigures: ['Narendra Modi', 'Nandan Nilekani'],
+            image: '📱'
         },
     ]
 };

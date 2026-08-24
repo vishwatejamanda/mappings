@@ -16,6 +16,12 @@ import WorldGeomorphology from './pages/WorldGeomorphology'
 import WorldClimatology from './pages/WorldClimatology'
 import WorldOceanography from './pages/WorldOceanography'
 import WorldBiomes from './pages/WorldBiomes'
+import PolityPage from './pages/PolityPage'
+import EconomyPage from './pages/EconomyPage'
+import CulturePage from './pages/CulturePage'
+import EmpireListPage from './pages/EmpireListPage'
+import EmpireDetailPage from './pages/EmpireDetailPage'
+import KingDetailPage from './pages/KingDetailPage'
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -44,6 +50,10 @@ function App() {
         <Route path="/history" element={<HistoryPage />} />
         <Route path="/dynasty/:id" element={<DynastyPage />} />
         <Route path="/dynasty/:dynastyId/ruler/:rulerIndex" element={<RulerPage />} />
+        {/* Empire Detail Pages */}
+        <Route path="/empires" element={<EmpireListPage />} />
+        <Route path="/empires/:id" element={<EmpireDetailPage />} />
+        <Route path="/empires/:id/king/:rulerIndex" element={<KingDetailPage />} />
         {/* Geography Routes */}
         <Route path="/geography" element={<GeographyHome />} />
         <Route path="/geography/indian-physical" element={<IndianPhysical />} />
@@ -55,6 +65,10 @@ function App() {
         <Route path="/geography/world-climatology" element={<WorldClimatology />} />
         <Route path="/geography/world-oceanography" element={<WorldOceanography />} />
         <Route path="/geography/world-biomes" element={<WorldBiomes />} />
+        {/* New Sections */}
+        <Route path="/polity" element={<PolityPage />} />
+        <Route path="/economy" element={<EconomyPage />} />
+        <Route path="/culture" element={<CulturePage />} />
       </Routes>
     </div>
   )
